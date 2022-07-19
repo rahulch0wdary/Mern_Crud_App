@@ -5,7 +5,7 @@ body{
 }
 
 body .addimage{
-    background-image: url("C:\Users\Lenovo\Desktop\project\client\src\images\background.jpg");
+    background-image: url("./images/background.jpg");
     min-height:764px;
     background-position: center;
     background-repeat: no-repeat;

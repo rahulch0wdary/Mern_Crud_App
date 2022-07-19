@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+body .addimage{
+    background-image: url("C:\Users\Lenovo\Desktop\project\client\src\images\background.jpg");
+    min-height:764px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    position: relative;
+    overflow: hidden;
+}
+.onf{
+    padding-top: 15vh;	
+}
+.txtover { 
+    font-size: 60px;
+    color:#D5EEBB;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+}
+@media screen and (max-width: 600px) {
+    .txtover{
+        font-size: 40px;
+    }
+  }
